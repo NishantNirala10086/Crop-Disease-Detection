@@ -1,74 +1,45 @@
-🌿 Crop Disease Detection AI
+# 🌿 Crop Disease Detection AI
 
-Crop Disease Detection is an intelligent system that uses Artificial Intelligence and Deep Learning to identify plant diseases from leaf images. The system helps farmers and users detect diseases quickly and accurately, reducing crop loss and improving productivity.
+Crop Disease Detection is an intelligent system that uses **Artificial Intelligence and Deep Learning** to identify plant diseases from leaf images. The system helps farmers detect diseases quickly and accurately, reducing crop loss and improving productivity.
 
-🚀 Features
-📷 Image Upload for Disease Detection
-🧠 CNN Model (MobileNetV2) for classification
-💬 AI Chat Assistant (GPT-based)
-🌍 Multilingual Translation (NLLB model)
-⚡ Fast and accurate predictions
-🎯 User-friendly interface
-🏗️ Tech Stack
+---
 
-Frontend:
+## 🚀 Features
 
-Next.js (React)
-JavaScript / TypeScript
+- 📷 Image Upload for Disease Detection  
+- 🧠 CNN Model (MobileNetV2) for classification  
+- 💬 AI Chat Assistant (GPT-based)  
+- 🌍 Multilingual Translation (NLLB model)  
+- ⚡ Fast and accurate predictions  
+- 🎯 User-friendly interface  
 
-Backend:
+---
 
-FastAPI (Python)
+## 🏗️ Tech Stack
 
-AI Models:
+### 🔹 Frontend
+- Next.js (React)  
+- JavaScript / TypeScript  
 
-CNN (MobileNetV2)
-GPT Model (Chat Assistant)
-NLLB Model (Translation)
+### 🔹 Backend
+- FastAPI (Python)  
 
-Dataset:
+### 🔹 AI Models
+- CNN (MobileNetV2)  
+- GPT Model (Chat Assistant)  
+- NLLB Model (Translation)  
 
-PlantVillage Dataset
-🔁 How It Works
-User uploads a plant leaf image
-Image is sent to backend
-Image is preprocessed
-CNN model predicts disease
-Result is displayed
-Chatbot provides assistance
-Translation module converts output
-📂 Project Structure
-crop-doctor-ai/
-│
-├── frontend/          # Next.js UI
-├── backend/           # FastAPI server
-├── model/             # Trained model files
-├── dataset/           # PlantVillage dataset
-├── train.py           # Model training
-├── app.py             # Backend API
-└── README.md
-▶️ How to Run
-🔹 Backend
-pip install -r requirements.txt
-python train.py   # Train model
-python app.py     # Run server
-🔹 Frontend
-npm install
-npm run dev
-📊 Output
-Disease Name
-Confidence Score
-Treatment Suggestions
-Chat Assistance
-Translated Results
-📌 Future Scope
-Mobile Application
-Real-time camera detection
-IoT integration
-Weather-based prediction
-Fertilizer recommendation
-👨‍💻 Author
+### 🔹 Dataset
+- PlantVillage Dataset  
 
-Nishant Nirala
- MCA (AI & ML)
-Chandigarh University
+---
+
+## 🔁 How It Works
+
+1. User uploads a plant leaf image  
+2. Image is sent to backend  
+3. Image is preprocessed  
+4. CNN model predicts disease  
+5. Result is displayed  
+6. Chatbot provides assistance  
+7. Translation module converts output  
